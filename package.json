@@ -1,0 +1,47 @@
+{
+  "name": "employee-award-certificate-generator",
+  "version": "1.0.0",
+  "description": "Generate customizable employee award certificates from Excel data and photos",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "certificate",
+    "award",
+    "employee",
+    "generator",
+    "excel"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "canvas": "^2.11.2",
+    "sharp": "^0.33.1",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "lodash": "^4.17.21",
+    "archiver": "^6.0.1",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0",
+    "@testing-library/react": "^14.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
